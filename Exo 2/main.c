@@ -8,7 +8,7 @@ int main() {
 	srand(time(NULL));
 	for (int j = 0; j < 10; j++) {
 		for (int i = 0; i < 10; i++) {
-			
+
 			tableau[j][i] = rand();
 		}
 	}
@@ -31,4 +31,5 @@ int main() {
 		}
 		printf("\n");
 	}
+	system("pause");
 }
